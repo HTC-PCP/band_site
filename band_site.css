@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+
+#bio-background {
+    margin: 0 auto;
+    width: 100%;
+    height: 723px;
+    background-image: url('band bio background.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#matt {
+    position: relative;
+    left: 230px;
+    top: 50px;
+}
+
+#jacob {
+    position: relative;
+    left: 310px;
+    top: 240px;
+}
+
+#joe {
+    position: relative;
+    left: 210px;
+    top: 280px;
+}
+
+#amy {
+    position: relative;
+    left: 310px;
+    top: 290px;
+}
+
+#city-scroll {
+    background-image: url('chemicalplantbackground_by_goncas23-d7a52yz.png');
+    background-repeat: repeat-x;
+    animation: slideleft 1000s infinite linear;
+    -webkit-animation: slideleft 1000s infinite linear;
+    width: 100%;
+    height: 460px;
+}
+
+@keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+    
+    to {
+        background-position: 40000%;
+    }
+}
+
+@-webkit-keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 40000%;
+    }
+}
+
+.textbox {
+    background-image: url('textbox.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    margin-top: 8px;
+}
+
+.white-box {
+    height: 24px;
+    width: 350px;
+}
+
+#white-box_right {
+    height: 24px;
+    width: 350px;
+    margin-left: 18px;
+}
+
+#white-box_email {
+    height: 18px;
+    width: 100%;
+}
+
+#white-box_subject {
+    height: 18px;
+    width: 100%;
+}
+
+#white-box_message {
+    height: 60px;
+    width: 100%;
+}
+
+input {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    padding-left: 2px;
+    width: 350px;
+}
+
+textarea {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+input.mysubmitbutton {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 100px;
+    justify-content: center;
+}
